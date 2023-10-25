@@ -25,4 +25,7 @@ def process_csv_file(file_path):
         urls = [item[0] for item in reader]
         with concurrent.futures.ThreadPoolExecutor() as executor:
             executor.map(get_status_code, urls)
-       
+
+# please replace file_path to suit yours 
+file_path = 'Task 2 - Intern.csv'
+process_csv_file(file_path)
