@@ -14,7 +14,7 @@ def get_status_code(url):
         error_message = str(e)
         print(f"An error occurred while processing {url}: {error_message.split(': ', 1)[1]}")
 
-def process_csv_file(file_path):
+def get_status_from_csv_file(file_path):
     """
     Obtaining url status code from a csv file
     while making use of multithreading to speed up the process
@@ -28,4 +28,4 @@ def process_csv_file(file_path):
 
 # please replace file_path to suit yours 
 file_path = 'Task 2 - Intern.csv'
-process_csv_file(file_path)
+get_status_from_csv_file(file_path)
