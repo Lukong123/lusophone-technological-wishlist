@@ -2,7 +2,7 @@
 
 #### Summary
 Our JavaScript code takes the provided *data array*, processes the creation dates, formats them, and generates a string with the formatted information for each page.
-It then displays the formatted results in the HTML document while also showing the code itself.
+It then displays the formatted results in the HTML document.
 
 ### Specification
 - It defines an array called `data` that holds information about different pages, including their *page IDs*, *creation dates*, and *titles*.
